@@ -3,7 +3,8 @@
 
 }
 body{
-	/*background-color: red;*/
+	background-color: #68BBEA;
+	margin: 0;
 }
 
 /*.map-carte{
@@ -11,18 +12,22 @@ body{
 	float: left;
 }*/
 
+.map {
+	padding-top: 20px;
+}
+
 .map-carte path{
 	fill: #353535;
 	/*fill: #151515;*/
-	/*stroke: #000;*/
+	/*stroke: #fff;*/
 	transition: fill 0.3s;
 }
 
 
 
-.map-carte path:hover{
-	fill: #68BBEA;
-}
+/*.map-carte path:hover{
+	fill: #E8A791;
+}*/
 
 /*.map-liste{
 	width: 30%;
@@ -76,3 +81,51 @@ color: rgb(26, 26, 26);
 	cursor: pointer;
 	fill: #F1BC5B !important;
 }
+
+
+/*------------------Menu-------------------*/
+header {
+    height: 85px;
+    background-color: #151515;
+    list-style: none;
+    /*top: 0;
+    left: 0;*/
+}
+
+.menu {
+    width: 100%;
+}
+
+nav {
+    /*float: right;*/
+}
+
+nav ul {
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.75rem 1rem;
+    color: #eee;
+    text-decoration: none;
+    background-color: #151515;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #68BBEA;
+}
+ 
+ .gauche {
+ 	float: left;
+ }
+
+ .droite {
+ 	float: right;
+ }
+
