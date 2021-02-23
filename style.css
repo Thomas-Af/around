@@ -82,6 +82,10 @@ color: rgb(26, 26, 26);
 	fill: #F1BC5B !important;
 }
 
+#overlay-groenland {
+	overflow-y: scroll;
+}
+
 
 /*------------------Menu-------------------*/
 header {
@@ -129,3 +133,14 @@ nav a:hover {
  	float: right;
  }
 
+/*----------Boutton----------------*/
+#search{
+	border-radius: 15px;
+	border: 2px solid #F1BC5B;
+}
+
+#bouton {
+	border-radius: 15px;
+	border: 2px solid #F1BC5B;
+	cursor: pointer;
+}

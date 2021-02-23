@@ -163,3 +163,47 @@ closeusa.addEventListener('click',closeModalusa);
 function closeModalusa() {
 overlayusa.style.display='none';
 }
+
+
+
+/*---------------Recherche--------------------*/
+function recherche(){
+	var texte = document.getElementById("search").value;
+
+	if (texte === "usa" ||  texte === "Usa" || texte === "USA") {
+		overlayusa.style.display='block';
+	}
+	else if (texte === "france" || texte === "France" || texte === "FRANCE") {
+		overlayfrance.style.display='block';
+	}
+	else if (texte === "chine" || texte === "Chine" || texte === "CHINE") {
+		overlaychine.style.display='block';
+	}
+	else if (texte === "russie" || texte === "Russie" || texte === "RUSSIE") {
+		overlayrussie.style.display='block';
+	}
+	else if (texte === "canada" || texte === "Canada" || texte === "CANADA") {
+		overlaycanada.style.display='block';
+	}
+	else if (texte === "bresil" || texte === "Bresil" || texte === "BRESIL" || texte === "brésil" || texte === "Brésil") {
+		overlaybresil.style.display='block';
+	}
+	else if (texte === "argentine" || texte === "Argentine" || texte === "ARGENTINE") {
+		overlayargentine.style.display='block';
+	}
+	else if (texte === "inde" || texte === "Inde" || texte === "INDE") {
+		overlayinde.style.display='block';
+	}
+	else if (texte === "australie" || texte === "Australie" || texte === "AUSTRALIE") {
+		overlayaustralie.style.display='block';
+	}
+	else if (texte === "groenland" || texte === "Groenland" || texte === "GROENLAND") {
+		overlaygroenland.style.display='block';
+	}
+	else if (texte === "royaume uni" || texte === "Royaume Uni" || texte === "ROYAUME UNI" || texte === "royaume-uni" || texte === "Royaume-Uni" || texte === "ROYAUME-UNI") {
+		overlayroyaumeuni.style.display='block';
+	}
+	else if (texte === "allemagne" || texte === "Allemagne" || texte === "ALLEMAGNE") {
+		overlayallemagne.style.display='block';
+	}
+}
