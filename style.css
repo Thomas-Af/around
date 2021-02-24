@@ -1,5 +1,6 @@
 * {
 	font-family: 'Poppins', sans-serif;
+	margin-bottom: auto;
 
 }
 body{
@@ -58,7 +59,7 @@ display:none;
 
 .popup{
 margin: 2% auto;
-width : 70%;
+width : 75%;
 background-color: rgb(243, 243, 243);
 padding: 1em;
 box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
@@ -133,6 +134,16 @@ nav a:hover {
  	float: right;
  }
 
+ footer {
+    height: 85px;
+    background-color: #151515;
+    list-style: none;
+}
+
+.foot {
+    width: 100%;
+}
+
 /*----------Boutton----------------*/
 #search{
 	border-radius: 15px;
@@ -143,4 +154,36 @@ nav a:hover {
 	border-radius: 15px;
 	border: 2px solid #F1BC5B;
 	cursor: pointer;
+}
+
+/*------popup départ-------------*/
+#popup-debut {
+	height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 5px;
+}
+.logo {
+	grid-column: 1 / 3;
+}
+.around {
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	border-radius: 15px; 
+}
+
+#close-debut {
+float: right;
+font-size:30pt;
+cursor: pointer;
+color: rgb(26, 26, 26);
+padding-top: -10px;
+}
+.texte {
+	float: left;
+}
+
+.image {
+	float: right;
 }

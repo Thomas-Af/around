@@ -25,7 +25,25 @@
                 </nav>
             </div>
         </header>
-<body>
+<body onload="openModaldebut()">
+  <div id="overlay-debut" class="overlay">
+  <div id="popup-debut" class="popup">
+    <div class="logo">
+      <span id="close-debut" class="close" onclick="closeModaldebut()">&times;</span>
+      <div><img src="around.png" width="250px"></div></div>
+    <div class="texte">
+      <p>Around le réseau qui tourne autour de vos passions.</p>
+      <p>Téléchargez l'application Around sur l'App Store ou sur Google Play pour accéder a plus d'options (publications de vidéos, live, ...).</p>
+      <img class="around" src="Logo app.svg" width="150px"><br>
+      <img src="google-play-down.png" width="150px">
+      <img src="app-store-down.png" width="150px">
+    </div>
+    <div class="image">
+      <img src="mock up profil.png" width="500px">
+    </div>
+
+  </div>
+</div>
   <div class="map" id="map">
     <div class="map-carte">
         <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -983,7 +1001,19 @@
 </div>
 
 
-
+<footer>
+            <div class="foot">
+                <nav>
+                    <ul class="gauche">
+                        <li><a href="#"><img src="around-blanc.png" width="100px"></a></li>
+                    </ul>
+                    <ul class="droite">
+                        <li><a href="#"><img src="google-play-down.png" width="120px"></a></li>
+                        <li><a href="#"><img src="app-store-down.png" width="120px"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
 <script src="script.js"></script>
 </body>
 </html>

@@ -207,3 +207,20 @@ function recherche(){
 		overlayallemagne.style.display='block';
 	}
 }
+
+
+
+/*---------------------------------------------------*/
+
+var adebut = document.getElementById('debut');
+var overlaydebut = document.getElementById('overlay-debut');
+adebut.addEventListener('click',openModaldebut);
+function openModaldebut() {
+overlaydebut.style.display='block';
+}
+
+var closedebut = document.getElementById('close-debut');
+closedebut.addEventListener('click',closeModaldebut);
+function closeModaldebut() {
+overlaydebut.style.display='none';
+}
